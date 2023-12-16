@@ -8,11 +8,11 @@ export default function RootLayout({
   }) {
     return (
       <div className="flex h-screen flex-col" suppressHydrationWarning>
-        <body>
+        <main className="flex-1">
           <Header />
             {children}
           <Footer />
-        </body>
+        </main>
       </div>
     )
   }
