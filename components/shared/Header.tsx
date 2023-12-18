@@ -1,5 +1,9 @@
 import Link from "next/link"
 import Image from "next/image"
+import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs"
+import { Button } from "../ui/button"
+import MobileNav from "./MobileNav"
+import NavItems from "./NavItems"
 
 const Header = () => {
   return (
@@ -7,31 +11,31 @@ const Header = () => {
       <div className="wrapper flex items-center justify-between">
         <Link href="/" className="w-36">
           <Image 
-            src="/assets/images/logo.svg" width={128} height={38}
+            src="/assets/images/dogon-192.png" width={38} height={38}
             alt="Evently logo" 
           />
         </Link>
 
-        {/* <SignedIn>
+        <SignedIn>
           <nav className="md:flex-between hidden w-full max-w-xs">
             <NavItems />
           </nav>
-        </SignedIn> */}
+        </SignedIn>
 
         <div className="flex w-32 justify-end gap-3">
 
-          {/* <SignedIn>
+          <SignedIn>
               <UserButton afterSignOutUrl="/" />
               <MobileNav />
-            </SignedIn> */}
+            </SignedIn>
 
-            {/* <SignedOut>
+            <SignedOut>
               <Button asChild className="rounded-full" size="lg">
                 <Link href="/sign-in">
                   Login
                 </Link>
               </Button>
-            </SignedOut> */}
+            </SignedOut>
 
         </div>
 
