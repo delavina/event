@@ -20,9 +20,9 @@ module.exports = withUt({
     extend: {
       colors: {
         primary: {
-          500: '#949292', /* ersetzte Farbe: #624cf5 */
-          50: ' #EAE9E9', /* ersetzte Farbe: #F6F8FD */
-          DEFAULT: '#949292', /* ersetzte Farbe: #624cf5 */
+          800: '#292524', /* ersetzte Farbe: #624cf5 */
+          50: ' #fafaf9', /* ersetzte Farbe: #F6F8FD */
+          DEFAULT: '#292524', /* ersetzte Farbe: #624cf5 */
           foreground: 'hsl(var(--primary-foreground))',
         },
         coral: {
@@ -30,10 +30,10 @@ module.exports = withUt({
         },
 
         grey: {
-          600: '#545454', // Subdued - color name in figma
-          500: '#757575',
-          400: '#AFAFAF', // Disabled - color name in figma
-          50: '#F6F6F6', // White Grey - color name in figma
+          600: '#57534e', // #545454 Subdued - color name in figma
+          500: '#78716c', // #757575
+          400: '#a8a29e', // #AFAFAF Disabled - color name in figma
+          50: '#fafaf9', // #F6F6F6  White Grey - color name in figma
         },
         black: '#000000',
         white: '#FFFFFF',
@@ -71,7 +71,7 @@ module.exports = withUt({
       },
       backgroundImage: {
         'dotted-pattern': "url('/assets/images/dotted-pattern.png')",
-        'hero-img': "url('/assets/images/hero.png')",
+        'hero-img': "url('/assets/images/1920x1080_edece8.008.jpeg')",
       },
       borderRadius: {
         lg: 'var(--radius)',
