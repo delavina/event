@@ -1,13 +1,15 @@
 import { RemoveUrlQueryParams, UrlQueryParams } from "@/types"
 
 import { type ClassValue, clsx } from "clsx"
-import qs from "qs"
+import qs from "query-string"
+
 
 import { twMerge } from "tailwind-merge"
  
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
+
 
 export const formatDateTime = (dateString: Date) => {
   const dateTimeOptions: Intl.DateTimeFormatOptions = {
