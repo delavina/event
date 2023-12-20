@@ -7,10 +7,10 @@ export default function Home() {
   <>
    <section className="bg-primary-50 bg-dotted-pattern bg-contain py-5 md:py-10">
         <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
-          <div className="flex flex-col justify-center gap-8">
+          <div className="flex flex-col justify-center gap-8 text-stone-900">
             <h1 className="h1-bold">digitale <br />Requisiten</h1>
-            <p className="p-regular-20 md:p-regular-24">beautifully designed digital props for filmmaking.</p>
-            <Button size="lg" asChild className="button w-full sm:w-fit bg-stone-800">
+            <p className="p-regular-20 md:p-regular-24 text-stone-500">beautifully designed digital props for filmmaking.</p>
+            <Button size="lg" asChild className="button w-full sm:w-fit">
               <Link href="#events">
                 rumstöbern
               </Link>
