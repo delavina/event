@@ -12,7 +12,7 @@ export default function Home() {
             <p className="p-regular-20 md:p-regular-24">beautifully designed digital props for filmmaking.</p>
             <Button size="lg" asChild className="button w-full sm:w-fit bg-stone-800">
               <Link href="#events">
-                Explore Now
+                rumstöbern
               </Link>
             </Button>
           </div>
